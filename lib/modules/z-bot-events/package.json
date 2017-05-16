@@ -1,0 +1,10 @@
+{
+  "name": "z-bot-events",
+  "version": "0.1",
+  "description": "A clean event package for ZBOT",
+  "main": "events.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "z-bot-module",
+  "version": "0.1",
+  "description": "A clean package for ZBOT",
+  "main": "zbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "Apache-2.0"
+}

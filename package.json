@@ -1,0 +1,69 @@
+{
+  "name": "z-bot",
+  "version": "1.0.0",
+  "description": "Rcon Bot ( BattlEye only currently )",
+  "homepage": "",
+  "author": {
+    "name": "Zupa",
+    "email": "jonas_windmolders@hotmail.com",
+    "url": "https://bot.devzupa.be"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "Bot",
+    "Discord",
+    "Zupa"
+  ],
+  "scripts": {
+    "bot": "node ./lib/index.js",
+    "test": "gulp",
+    "updatedb": "node node_modules/geoip-lite/scripts/updatedb.js"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "ssh://git@bitbucket.org/Windmolders/z-bot.git",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "battle-node": "^0.1.2",
+    "bluebird": "^3.4.6",
+    "clapp": "^1.2.1",
+    "crypto-js": "^3.1.8",
+    "erlpack": "hammerandchisel/erlpack",
+    "game-server-query": "^1.0.10",
+    "gamedig": "^0.2.25",
+    "geoip-lite": "^1.1.8",
+    "google": "1.1.x",
+    "google-images": "0.1.x",
+    "lodash": "^4.17.2",
+    "node-opus": "^0.2.4",
+    "node-schedule": "^1.2.0",
+    "opusscript": "^0.0.3",
+    "querystring": "0.2.x",
+    "rcon": "^1.0.2",
+    "redis": "^2.6.3",
+    "uws": "^0.14.0",
+    "sodium": "^2.0.1",
+    "libsodium-wrappers": "^0.5.1",
+    "bufferutil": "^3.0.0"
+  }
+}
